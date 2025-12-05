@@ -121,7 +121,7 @@ docker run -p 8000:8000 churn-prediction
 
 The service is now running inside a container and accessible at `http://localhost:8000`.
 
-## Elite MLOps Stack
+## MLOps Stack
 
 To run the full stack with Monitoring and Experiment Tracking:
 
