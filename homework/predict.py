@@ -1,9 +1,7 @@
 import pickle
 from fastapi import FastAPI
 import uvicorn
-from typing import Dict, Any
-from typing import Literal
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, ConfigDict
 
 class Lead(BaseModel):
     model_config = ConfigDict(extra='forbid')

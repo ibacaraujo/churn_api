@@ -3,7 +3,6 @@ import uvicorn
 import pandas as pd
 from pandera.errors import SchemaError
 from fastapi import FastAPI, HTTPException
-from typing import Dict, Any
 from typing import Literal
 from pydantic import BaseModel, Field, ConfigDict
 from prometheus_fastapi_instrumentator import Instrumentator
